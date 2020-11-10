@@ -1,32 +1,9 @@
-html,
-body,
-header,
-.view {
-  height: 100%;
+body {
+  background-image: url(https://mdbootstrap.com/img/Photos/Others/img%20%2848%29.jpg);
+  background-size: auto;
 }
 
-@media (max-width: 740px) {
-  html,
-  body,
-  header,
-  .view {
-    height: 100vh;
-  }
-}
 
-.top-nav-collapse {
-  background-color: #78909c !important;
-}
-
-.navbar:not(.top-nav-collapse) {
-  background: transparent !important;
-}
-
-@media (max-width: 991px) {
-  .navbar:not(.top-nav-collapse) {
-    background: #78909c !important;
-  }
-}
 
 h1 {
   letter-spacing: 8px;
@@ -64,4 +41,8 @@ h5 {
 .social-icons .social-icon:hover {
   color: white;
   background-color: black;
+}
+
+.logo {
+  margin-top: 25px;
 }
